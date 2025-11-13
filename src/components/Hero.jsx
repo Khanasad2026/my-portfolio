@@ -39,14 +39,10 @@ const Hero = ({ personalInfo }) => {
        <div className="hero-image">
   <div className="profile-image-container">
     <img 
-      src="/src/assets/profile.jpeg" 
-      alt="Asadulla Khan"
-      className="profile-photo"
-      onError={(e) => {
-        e.target.style.display = 'none';
-        e.target.nextSibling.style.display = 'flex';
-      }}
-    />
+  src="/profile.jpg" 
+  alt="Asadulla Khan"
+  className="profile-photo"
+/>
     <div className="profile-image-placeholder" style={{display: 'none'}}>
       <div className="image-content">
         <span>Photo Loading</span>
