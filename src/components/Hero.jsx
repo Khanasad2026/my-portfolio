@@ -39,7 +39,7 @@ const Hero = ({ personalInfo }) => {
        <div className="hero-image">
   <div className="profile-image-container">
     <img 
-  src="/profile.jpg" 
+  src="/profile.jpeg" 
   alt="Asadulla Khan"
   className="profile-photo"
 />
